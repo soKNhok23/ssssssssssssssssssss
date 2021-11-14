@@ -1,0 +1,687 @@
+/* general */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* screen phone */
+@media (max-width:760px) {
+    .main {
+        width: 100%;
+        margin: auto;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-l {
+        width: 90%;
+        text-align: center;
+    }
+    .nav-r {
+        width: 95%;
+        margin: auto;
+    }
+    .nav-r ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-r ul li {
+        width: 40%;
+        margin: auto;
+        background-color: black;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 7px;
+        list-style: none;
+    }
+    .nav-r ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .content1 {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content1 .box1 {
+        width: 90%;
+        margin: auto;
+    }
+    .content1 .box1 .btn input {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        border: none;
+    }
+    .content1 .box2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .content2 {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content2 .contain1 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content2 .contain1 .box1 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .content2 .conaint1 .box2 {
+        width: 95%;
+        text-align: center;
+    }
+    .content2 .contain2 {
+        width: 100%;
+        text-align: center;
+    }
+    .contain2 .contain2 .box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .content2 .contain2 .box .img {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .content2 .contain2 .img h3 {
+        text-align: center;
+        margin-top: -40px;
+        color: white;
+    }
+    .content2 .contain2 .btn input {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        border: none;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        
+    }
+    .content3 .box {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .content3 .box .img {
+        width: 100%;
+    }
+    .content3 .box .text {
+        width: 95%;
+    }
+    .content3 .box .text input {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        border-radius: 7px;
+        border: none;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .content4 {
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .content4 .box1 {
+        width: 90%;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .content4 .box1 h1 {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .content4 .box1 .item {
+        padding: 10px;
+        width: 90%;
+        border-radius: 7px;
+        border: none;
+        background-color:white;
+        margin: 10%;
+    }
+    .content4 .box1 .textarea {
+        resize: none;
+    }
+    .content4 .box1  input {
+      padding: 10px;
+      background-color: yellow;
+      color: black;
+      border: none;
+      border-radius: 7px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .content4 .box2 {
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .content4 .box2 .content1 {
+        width: 95%;
+        margin: auto;
+    }
+    .content4 .box2 .content2 {
+        width: 95%;
+        margin: auto;
+        background-color: black;
+        color: white;
+        border-radius: 7px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .content4 .box2 .content2 p {
+        padding: 10px;
+    }
+
+
+    .footer {
+        background-color: black;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .footer i {
+        color: white;
+        padding: 15px;
+    }
+    .content2 .box1 h1 {
+        font-size: 25px;
+    }
+    .content2 .box1 p {
+        font-size: 15px;
+    }
+}
+
+/* computer screen */
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+/* navbar */
+.navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-r ul  {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-r ul li {
+    padding: 10px;
+    list-style: none;
+    background-color: black;
+    margin: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.nav-r ul li:hover {
+    background-color: red;
+}
+.nav-r ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-l {
+    margin: 15px;
+    color: red;
+    margin-left: 15%;
+}
+
+/* content1 */
+.content1 {
+    width: 100%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content1 .box1 {
+    width: 40%;
+    padding: 10px;
+    margin-left: 5%;
+}
+.content1 .box1 h1 {
+    font-size: 50px;
+}
+.content1 .box1 p {
+    font-size: 25px;
+}
+.content1 .box1 h4 {
+    font-size: 30px;
+}
+.content1 .box1 .btn input{
+    padding: 10px;
+    background-color: black;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 20px;
+}
+.content1 .box1 .btn input:hover{
+    background-color: red;
+}
+.content1 .box2 {
+    width: 30%;
+}
+/* content2 */
+.content2 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.contain1 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.contain1 .box1 {
+    width: 50%;
+}
+.contain1 .box1 h1 {
+    font-size: 50px;
+}
+.contain1 .box2 {
+    width: 25%;
+}
+.contain2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content2 p {
+    font-size: 25px;
+}
+.contain2 .box {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contain2 .box .img {
+    width: 32%;
+}
+.contain2 .box .img h3 {
+    letter-spacing: 1px;
+    color: white;
+    margin-top: -20%;
+    margin-left: 13%;
+}
+.contain2 .btn {
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.contain2 .btn input {
+    border-radius: 7px;
+    background-color: black;
+    padding: 10px;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.contain2 .btn input:hover {
+    background-color: red;
+}
+.content3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content3 p {
+    font-size: 25px;
+}
+.content3 h1 {
+    font-size: 30px;
+}
+.content3 .box1 ,.box2 ,.box3 {
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+.content3 .box .btn {
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+.content3 .box .btn:hover {
+    background-color: red;
+}
+.content4 {
+    width: 90%;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+}
+.content4 .box1 {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+}
+.content4 .box1 h1 {
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+.content4 .box1 .item {
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+.content4 .box1 .textarea {
+    resize: none;
+}
+.content4 .box1 .btn {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding: 15px;
+}
+.content4 .box1 .btn:hover{
+    background-color: red;
+}
+.content4 .box2 {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1%;
+}
+.content4 .box2 .content1 {
+    width: 100%;
+    margin: 5%;
+}
+.content4 .box2 .content2 {
+    width: 98%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    margin: 5%;
+}
+/* footer */
+.footer {
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 20vh;
+}
+.footer i {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.footer i:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/* screen tablet */
+@media (max-width:1024px) {
+    .main {
+        width: 100%;
+        background-color: yellow;
+    }
+    .navbar {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .nav-l {
+        width: 90%;
+        text-align: center;
+    }
+    .nav-r {
+        width: 90%;
+        margin: auto;
+    }
+    .nav-r ul  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-r ul li {
+        margin-right: 20px;
+        width: 20%;
+        list-style: none;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: black;
+        text-align: center;
+    }
+    .nav-r ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    .content1 {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .content1 .box1 {
+        width: 40%;
+        margin: auto;
+    }
+    .content1 .box2 {
+        width: 30%;
+        margin: auto;
+    }
+    .content1 .box1 .btn input {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 7px;
+        border: none;
+    }
+    .content2 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content2 .contain1 {
+        width: 100%;
+        margin-left: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content2 .contain1 .box1 {
+        width: 50%;
+    }
+    .content2 .contain1 .box2 {
+        width: 40%;
+        margin: auto;
+    }
+    .content2 .contain2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        text-align: center;
+    }
+    .content2 .contain2 h1 {
+        font-size: 20px;
+        margin-left: 60px
+    }
+    .content2 .contain2 .box {
+        width: 100%;
+        display: flex;
+        margin: auto;
+    }
+    .content2 .contain2 .box .img {
+        width: 30%;
+        margin: auto;
+    }
+    .content2 .contain2 .box .img  h3 {
+        margin-top: -15%;
+        color: white;
+    }
+    .content2 .contain2 .btn {
+        margin: auto;
+        margin-top: 10px;
+    }
+    .content2 .contain2 .btn input {
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+    .content3 {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content3 .box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .content3 .box .img {
+        width: 85%;
+        margin-left: 80px;
+    }
+    .content3 .box .text {
+        width: 80%;
+        margin: auto;
+    }
+    .content3 .box .text .btn {
+        padding: 10px;
+        background-color: black;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .content4 {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content4 .box1 {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+        background-color: black;
+        border-radius: 7px;
+    }
+    .content4 .box1 h1 {
+        color: white;
+        margin-left: 35%;
+    }
+    .content4 .box1 .textarea {
+        resize: none;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .content4 .box1 .item {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .content4 .box1 .btn {
+        border: none;
+        border-radius: 7px;
+        background-color:yellow;
+        color: black;
+        padding: 10px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .content4 .box2 {
+        width: 100%;
+    }
+    .content4 .box2 .content1 {
+        width: 100;
+    }
+    .content4 .box2 .content1 iframe {
+        width: 100%;
+        margin-top: 5%;
+    }
+    .content4 .box2 .content2 {
+        width: 95%;
+        background-color: black;
+        color: white;
+        margin-top: 3%;
+        border-radius: 7px;
+    }
+    .content4 .box2 .content2 p {
+        padding: 2%;
+    }
+
+    .footer {
+        background-color: black;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer i {
+        color: white;
+        padding: 20px;
+    }
+}
+
